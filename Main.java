@@ -35,5 +35,11 @@ System.out.println(number);
     System.out.println(languages[1]);
     languages[1] = "Java";
     System.out.println(languages[1]);
+    
+    //拡張for文
+    String[] names = {"A", "B", "C"};
+    for(String name: names){
+      System.out.println("私の名前は"+name+"です");
+    }
 }
 } 
