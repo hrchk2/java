@@ -29,5 +29,11 @@ System.out.println(number);
     System.out.println("身長は"+height + "mです" );
     System.out.println("体重は"+weight+"kgです");
     System.out.println("BMIは"+BMI+"です");
+    
+    //配列
+    String[] languages ={"Ruby", "PHP", "Python"};
+    System.out.println(languages[1]);
+    languages[1] = "Java";
+    System.out.println(languages[1]);
 }
 } 
