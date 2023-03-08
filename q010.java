@@ -9,5 +9,16 @@ public class q010{
     }
     System.out.println("a");
   }
+  
+  // 模範解答
+  // int n = 8;  // 繰り返しの数
+  
+  // for (int i = 0; i < n; i++) {    // 行ループ
+  //   for (int j = 0; j < i + 1; j++) {    // 列ループ
+  //     System.out.print('■');
+  //   }
+  //   System.out.println(); // 列ループが終われば改行
+  // }
+  
   }
 }
